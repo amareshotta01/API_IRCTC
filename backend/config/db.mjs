@@ -1,12 +1,15 @@
 import mysql from 'mysql2/promise';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const connectDB = async () => {
   try {
     const connection = await mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      password: 'amaresh2001', // replace with your MySQL password
-      database: 'irctc' // replace with your database name
+      host: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD, // replace with your MySQL password
+      database: process.env.DB_NAME // replace with your database name
     });
     console.log("Connected to database.")
     return connection;

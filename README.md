@@ -39,6 +39,7 @@ npm install
 
 ### Set up your MySQL database and import the required tables for admins, users, trains, and bookings.
 ####  * All the tables are given in the google drive link here. You just need to create a MySQL Database named irctc and import these tables into it and use it.
+https://drive.google.com/drive/folders/1Dx_eLYF4DIWuLNrgnrLDtd5iZs_hMnIS?usp=sharing 
 
 ### Set your environment variables in a .env file:
 

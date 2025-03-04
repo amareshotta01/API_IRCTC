@@ -31,7 +31,7 @@ View specific booking details.
 ## Installation
 ### Clone the repository:
 
-git clone https://github.com/amareshotta01/SDE-INTERN-API_IRCTC.git
+git clone https://github.com/amareshotta01/API_IRCTC.git
 
 ### Install dependencies:
 
